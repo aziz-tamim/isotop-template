@@ -1,0 +1,15 @@
+.mb-30 {
+    margin-bottom: 30px;
+}
+.portfolio-single img  {
+    width: 100%;
+  }
+
+
+.portfolio-menu button {
+    background: #000;
+    border: none;
+    color: #fff;
+    padding: 9px 25px;
+    text-transform: uppercase;
+}
