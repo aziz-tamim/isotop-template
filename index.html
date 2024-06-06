@@ -1,104 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Title</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <z-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Title</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
-
-  <meta name="theme-color" content="#fafafa">
-
- 
-</head>
-
-<body>
-
-<div class="portfolio-area">
-  <div class="container">
-
-    <div class="row">
-      <div class="col-xl-12">
-        <div class="portfolio-menu mb-30">
-          <button class="active" data-filter="*">show all</button>
-          <button data-filter=".cat1">web</button>
-          <button data-filter=".cat2">Photo</button>
-          <button data-filter=".cat3">Graphics</button>
-          <button data-filter=".cat4">branding</button>
-          <button data-filter=".cat5">logo</button>
+  <body>
+    <div class="portfolio-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="portfolio-menu mb-30">
+              <button class="active" data-filter="*">show all</button>
+              <button data-filter=".cat1">web</button>
+              <button data-filter=".cat2">Photo</button>
+              <button data-filter=".cat3">Graphics</button>
+              <button data-filter=".cat4">branding</button>
+              <button data-filter=".cat5">logo</button>
+            </div>
+          </div>
+        </div>
+        <div class="row portfolio-active">
+          <div class="col-xl-4 grid-item cat1 cat5">
+            <div class="portfolio-single mb-30">
+              <img src="img/image1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-xl-4 grid-item cat2 cat4">
+            <div class="portfolio-single mb-30">
+              <img src="img/image.avif" alt="" />
+            </div>
+          </div>
+          <div class="col-xl-4 grid-item cat1 cat3 cat5">
+            <div class="portfolio-single mb-30">
+              <img src="img/image4.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-xl-4 grid-item cat2 cat4 cat1">
+            <div class="portfolio-single mb-30">
+              <img src="img/image1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-xl-4 grid-item cat1 cat5">
+            <div class="portfolio-single mb-30">
+              <img src="img/image1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-xl-4 grid-item cat2 cat3 cat4">
+            <div class="portfolio-single mb-30">
+              <img src="img/image4.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-xl-4 grid-item cat3 cat4 cat2">
+            <div class="portfolio-single mb-30">
+              <img src="img/image4.jpg" alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="row portfolio-active">
-      <div class="col-xl-4 grid-item cat1 cat5">
-        <div class="portfolio-single mb-30">
-          <img src="img/image1.jpg" alt="">
-        </div>
-      </div>
-
-      <div class="col-xl-4 grid-item cat2 cat4">
-        <div class="portfolio-single mb-30">
-          <img src="img/image.avif" alt="">
-        </div>
-      </div>
-
-      <div class="col-xl-4 grid-item cat1 cat3 cat5">
-        <div class="portfolio-single mb-30">
-          <img src="img/image4.jpg" alt="">
-        </div>
-      </div>
-
-      <div class="col-xl-4 grid-item cat2 cat4 cat1">
-        <div class="portfolio-single mb-30">
-          <img src="img/image1.jpg" alt="">
-        </div>
-      </div>
-
-      <div class="col-xl-4 grid-item cat1 cat5">
-        <div class="portfolio-single mb-30">
-          <img src="img/image1.jpg" alt="">
-        </div>
-      </div>
-
-      <div class="col-xl-4 grid-item cat2 cat3 cat4">
-        <div class="portfolio-single mb-30">
-          <img src="img/image4.jpg" alt="">
-        </div>
-      </div>
-
-      
-      <div class="col-xl-4 grid-item cat3 cat4 cat2">
-        <div class="portfolio-single mb-30">
-          <img src="img/image4.jpg" alt="">
-        </div>
-      </div>
-     
-
-    </div>
-  </div>
-</div>
-
-
-  <!-- Add your site or application content here -->
-  <script src="js/code.jquery.com_jquery-1.12.4.min.js"></script>
-  <script src="js/bootstrap.bundle.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/unpkg.com_isotope-layout@3.0.6_dist_isotope.pkgd.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-</body>
+    <!-- ========== jquery js ========== -->
+    <script src="js/code.jquery.com_jquery-1.12.4.min.js"></script>
+    <!-- ========== bootstrap bundle js ========== -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- ========== bootstrap min js ========== -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ========== isotope min js ========== -->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!-- ========== plugins js ========== -->
+    <script src="js/plugins.js"></script>
+    <!-- ========== main js ========== -->
+    <script src="js/main.js"></script>
+  </body>
 </html>
